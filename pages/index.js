@@ -28,12 +28,12 @@ export default function Home() {
             Genießen Sie mit uns das Theater & die Sommerkonzerte im malerischen Ambiente des Turm 20 in Linz.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/events" className="btn-primary inline-block text-center">
+            <a href="/events/" className="btn-primary inline-block text-center">
               Aktuelle Veranstaltungen
-            </Link>
-            <Link href="/contact" className="border border-white/20 px-6 py-3 rounded-lg hover:bg-white/10 transition-all inline-block text-center">
+            </a>
+            <a href="/contact/" className="border border-white/20 px-6 py-3 rounded-lg hover:bg-white/10 transition-all inline-block text-center">
               Kontaktieren Sie Uns
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -67,9 +67,9 @@ export default function Home() {
                   <p>🕗 20:00 Uhr</p>
                   <p>📍 Turm 20, Linz</p>
                 </div>
-                <Link href="/events/romeo-julia" className="btn-primary inline-block w-full text-center">
+                <a href="/events/romeo-julia/" className="btn-primary inline-block w-full text-center">
                   Mehr Informationen
-                </Link>
+                </a>
               </div>
             </div>
 
@@ -184,9 +184,9 @@ export default function Home() {
             Das Turm 20 ist mehr als nur ein Theater – es ist ein kultureller Treffpunkt im Herzen von Linz. 
             Seit 2019 bieten wir ein Programm aus Theater, Musik und Literatur, das Besucher aus ganz Oberösterreich anzieht.
           </p>
-          <Link href="/about" className="btn-primary inline-block">
+          <a href="/about/" className="btn-primary inline-block">
             Mehr Über Uns Erfahren
-          </Link>
+          </a>
         </div>
       </section>
     </Layout>

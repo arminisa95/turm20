@@ -19,21 +19,21 @@ export default function Layout({ children, title = 'Turm 20 - Theater & Kulturve
             </Link>
             
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="nav-link text-gray-300 hover:text-white">
+              <a href="/" className="nav-link text-gray-300 hover:text-white">
                 Home
-              </Link>
-              <Link href="/events" className="nav-link text-gray-300 hover:text-white">
+              </a>
+              <a href="/events/" className="nav-link text-gray-300 hover:text-white">
                 Veranstaltungen
-              </Link>
-              <Link href="/artists" className="nav-link text-gray-300 hover:text-white">
+              </a>
+              <a href="/artists/" className="nav-link text-gray-300 hover:text-white">
                 Künstler
-              </Link>
-              <Link href="/about" className="nav-link text-gray-300 hover:text-white">
+              </a>
+              <a href="/about/" className="nav-link text-gray-300 hover:text-white">
                 Über Uns
-              </Link>
-              <Link href="/contact" className="nav-link text-gray-300 hover:text-white">
+              </a>
+              <a href="/contact/" className="nav-link text-gray-300 hover:text-white">
                 Kontakt
-              </Link>
+              </a>
             </div>
           </div>
         </div>
